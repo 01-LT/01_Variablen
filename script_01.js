@@ -28,13 +28,19 @@
 // console.log(firstName + " " + familyName);
 
 
-let test;
-test = "hallo";
-test = 2;
-test = true;
+// let test;
+// test = "hallo";
+// test = 2;
+// test = true;
 
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
+
+//***03a Konstanten****/
+
+const test = "hallo";
+test = "hallo"; // KEINE neue.Zuweisung zur LZ möglich! -->Fehler
+console.log("Inhalt: " + test);// Ausgabe
 
 
 
