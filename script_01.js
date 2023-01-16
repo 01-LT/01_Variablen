@@ -57,15 +57,16 @@ let ageJohn, ageMark;
 // let year = 2023;
 
 let date = new Date();
-console.log(date.getFullYear());
+let year = date.getFullYear();
+
 
 
 // Berechnung
-// ageJohn = year - birthYearJohn;
-// ageMark = year - birthYearMark;
+ageJohn = year - birthYearJohn;
+ageMark = year - birthYearMark;
 
-// console.log(ageJohn);
-// console.log(ageMark);
+console.log(ageJohn);
+console.log(ageMark);
 
 
 
