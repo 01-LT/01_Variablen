@@ -6,12 +6,7 @@
  * 
  *  Block-Kommentar
  * 
- * 
- * 
 */
-
- 
-
 
 // Konsolen-Ausgaben
 // console.log("Hallo");
@@ -19,40 +14,38 @@
 
 /***** 02 Deklaration + Wertzuweisung I *******/
 
-// let firstName;
-// firstName = "Max"; //Deklaration (Definition)
-// console.log(firstName);
+// let firstName; // Deklaration (Definition)
+// firstName = "Max"; // Wertzuweisung
+// console.log(firstName); // Ausgabe
 
 // let familyName = "Mütze";
 // console.log(familyName);
 // console.log(firstName + " " + familyName);
 
-/***** 02 Deklaration + Wertzuweisung II*******/
+/***** 03 Deklaration + Wertzuweisung II *******/
 
-let firstName, familyName;
-firstName = prompt("Bitte Vornamen eingeben."); //Wertzuweisung
-familyName = prompt ("Bitte Nachnamen eingeben.") //Wertzuweisung
-console.log(firstName + " " + familyName); // Ausgabe
+// let firstName, familyName;
+// firstName = prompt("Bitte Vornamen eingeben."); // Wertzuweisung
+// familyName = prompt("Bitte Nachnamen eingeben."); // Wertzuweisung
+// console.log(firstName + " " + familyName);
 
+// console.log("Datentyp: " + typeof firstName);
 
+/* JS ist eine untypisierte Sprache! | untyped */
 
-
-
-
-
-// let test;
+// let test; 
 // test = "hallo";
 // test = 2;
 // test = true;
 
-// console.log("Datentyp: " + typeof test);
+// console.log("Datenyp: " + typeof test);
 // console.log("Inhalt: " + test);
 
-//***03a Konstanten****/
+/***** 03a Konstanten *******/
 
-// const test = "hallo";
-// test = "hallo"; // KEINE neue.Zuweisung zur LZ möglich! -->Fehler
-// console.log("Inhalt: " + test);// Ausgabe
+const test = "hallo";  // Variable mit KONSTANTEM Inhalt
+//test = "hi"; // KEINE neue Zuweisung zur LZ möglich! --> Fehler
+console.log("Inhalt: " + test); // Ausgabe
 
 
 
