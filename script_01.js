@@ -19,6 +19,13 @@
 
 /***** 02 Deklaration + Wertzuweisung I *******/
 
+let firstName, familyName;
+firstName = prompt("Bitte Vornamen eingeben.");
+console.log(firstName);
+
+
+
+
 // let firstName;
 // firstName = "Max"; //Deklaration (Definition)
 // console.log(firstName);
@@ -38,9 +45,9 @@
 
 //***03a Konstanten****/
 
-const test = "hallo";
-test = "hallo"; // KEINE neue.Zuweisung zur LZ möglich! -->Fehler
-console.log("Inhalt: " + test);// Ausgabe
+// const test = "hallo";
+// test = "hallo"; // KEINE neue.Zuweisung zur LZ möglich! -->Fehler
+// console.log("Inhalt: " + test);// Ausgabe
 
 
 
