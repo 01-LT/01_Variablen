@@ -19,13 +19,6 @@
 
 /***** 02 Deklaration + Wertzuweisung I *******/
 
-let firstName, familyName;
-firstName = prompt("Bitte Vornamen eingeben.");
-console.log(firstName);
-
-
-
-
 // let firstName;
 // firstName = "Max"; //Deklaration (Definition)
 // console.log(firstName);
@@ -33,6 +26,18 @@ console.log(firstName);
 // let familyName = "Mütze";
 // console.log(familyName);
 // console.log(firstName + " " + familyName);
+
+/***** 02 Deklaration + Wertzuweisung II*******/
+
+let firstName, familyName;
+firstName = prompt("Bitte Vornamen eingeben."); //Wertzuweisung
+familyName = prompt ("Bitte Nachnamen eingeben.") //Wertzuweisung
+console.log(firstName + " " + familyName); // Ausgabe
+
+
+
+
+
 
 
 // let test;
